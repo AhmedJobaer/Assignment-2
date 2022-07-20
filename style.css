@@ -1,0 +1,55 @@
+/* Utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+/* top-banner-style */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    color: #ffffff;
+    background-color: #161616;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.banner-info {
+    width: 531px;
+    height: 424px;
+    padding-top: 55px;
+    padding-right: 40px;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* .banner-img {
+    width: 50%;
+} */
+
+.banner-img img {
+    width: 581px;
+    height: 613px;
+}
+
+.banner-detail {
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #DD0000;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
