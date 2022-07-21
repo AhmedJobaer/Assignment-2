@@ -5,6 +5,7 @@ body {
 
 .container {
     background-color: #FFFFFF;
+
 }
 
 
@@ -13,6 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: none;
 }
 
 .top-banner {
@@ -150,6 +152,8 @@ tranfer-cart and sidenav */
     margin-right: 30px;
 }
 
+/* 
+footer */
 
 .footer {
     margin-top: 80px;
