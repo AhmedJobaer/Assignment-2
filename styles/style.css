@@ -152,6 +152,10 @@ tranfer-cart and sidenav */
     margin-right: 30px;
 }
 
+#tablet-view a {
+    visibility: hidden;
+}
+
 /* 
 footer */
 
@@ -221,11 +225,21 @@ hr.hr {
     }
 }
 
+/* 
+table device */
 @media only screen and (min-width:578px) and (max-width:992px) {
     .top-players {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    #tablet-view a {
+        visibility: visible;
+    }
+
+    #tablet-view {
+        margin-top: 40px;
     }
 
     .transfer {
