@@ -1,13 +1,12 @@
 /* Utilities */
 body {
     font-family: 'Poppins', sans-serif;
-
 }
 
 .container {
     background-color: #FFFFFF;
-
 }
+
 
 /* top-banner-style */
 main {
@@ -27,6 +26,10 @@ main {
     border-radius: 20px;
 }
 
+.btn:hover {
+    background-color: aqua;
+}
+
 .banner-info {
     width: 531px;
     height: 424px;
@@ -39,9 +42,9 @@ main {
     font-weight: 700;
 }
 
-/* .banner-img {
+.banner-img {
     width: 50%;
-} */
+}
 
 .banner-img img {
     width: 581px;
@@ -50,6 +53,10 @@ main {
 
 .banner-detail {
     margin-bottom: 40px;
+}
+
+.arrow {
+    margin-left: 10px;
 }
 
 .btn {
@@ -62,11 +69,8 @@ main {
 }
 
 
-
-
-
-
-
+/* 
+tranfer-cart and sidenav */
 
 .transfer {
     margin-top: 80px;
@@ -84,6 +88,11 @@ main {
     margin: 20px;
     text-align: center;
     margin-right: 5px;
+}
+
+.side-nav a:hover {
+    background-color: #DD0000;
+    color: #ffffff;
 }
 
 .rectangle {
@@ -143,6 +152,7 @@ main {
 
 
 .footer {
+    margin-top: 80px;
     width: 1600px;
     height: 250px;
     text-align: center;
@@ -159,11 +169,64 @@ hr.hr {
 
 .page-link {
     margin-top: 40px;
+    justify-content: center;
     text-decoration: none;
+    display: flex;
 }
 
 .page-link a {
     text-decoration: none;
     margin-left: 20px;
     color: #ffffff;
+}
+
+.social-icon {
+    margin: 20px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+
+
+/* Meadia Quueries */
+
+/* Mobile divice */
+
+
+
+
+@media only screen and (max-width:577px) {
+    .top-players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .transfer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .page-link {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:578px) and (max-width:992px) {
+    .top-players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .transfer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
