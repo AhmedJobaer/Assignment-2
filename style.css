@@ -1,16 +1,23 @@
 /* Utilities */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+
+}
+
+.container {
+    background-color: #FFFFFF;
+
 }
 
 /* top-banner-style */
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-banner {
+    color: #ffffff;
     display: flex;
     width: 1321px;
     height: 646px;
@@ -52,4 +59,111 @@ main {
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.transfer {
+    margin-top: 80px;
+    margin-right: none;
+    display: flex;
+}
+
+.side-nav a {
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.rectangle {
+    align-content: center;
+    margin-right: 20px;
+    height: 220px;
+    width: 250px;
+    background-color: #161616;
+    border-radius: 5px;
+}
+
+.side-nav {
+    margin-right: 20px;
+    height: 800px;
+    display: block;
+}
+
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.transfer-banner img {
+    width: 100%;
+}
+
+.player {
+    width: 330px;
+    height: 350px;
+    border: 1px solid rgb(234, 221, 221);
+    border-radius: 15px;
+}
+
+.transfer-btn a {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.transfer-title {
+    margin-left: 15px;
+}
+
+.transfer-info {
+    display: flex;
+    margin-left: 15px;
+}
+
+.transfer-icon {
+    margin-right: 30px;
+}
+
+
+.footer {
+    width: 1600px;
+    height: 250px;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    padding: 60px;
+}
+
+hr.hr {
+    width: 1300px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: none;
+}
+
+.page-link {
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.page-link a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ffffff;
 }
